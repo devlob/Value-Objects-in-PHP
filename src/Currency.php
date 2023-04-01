@@ -12,6 +12,7 @@ class Currency
             throw new InvalidArgumentException('Invalid ISO code');
         }
     }
+
     public function isoCode(): string
     {
         return $this->isoCode;
